@@ -7,10 +7,17 @@
   
   {# Pico CSS for baseline accessible styles (WCAG 2.2 AA compliant) #}
   <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@2/css/pico.min.css">
+
+  <link rel="stylesheet" href="src/main/resources/static/css/custom.css">
   
   {# HTMX for progressive enhancement #}
   <script src="https://unpkg.com/htmx.org@1.9.12"></script>
   
+
+<button class="edit-btn">Edit</button>
+<button class="delete-btn">Delete</button>
+
+
   <style>
     /* Visually hidden but accessible to screen readers (WCAG 1.3.1) */
     .visually-hidden {
