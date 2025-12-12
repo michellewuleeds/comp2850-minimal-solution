@@ -242,7 +242,7 @@ select:focus {
 }
 
 .delete-btn:hover,
-.delete-btn:focus {c
+.delete-btn:focus {
   background-color: #b71c1c; /* darker red */
 }
 
